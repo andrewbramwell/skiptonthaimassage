@@ -1,24 +1,24 @@
 module.exports = {
-    "name": "Splendid Sites Web Designs",
-    "email": "help@splendidsites.com",
-    "phoneForTel": "555-779-4407",
-    "phoneFormatted": "(555) 779-4407",
-    "openingHours": "Mon-Sun: 9am-9pm",
-    "onlineBooking": "https://www.facebook.com/",
+    "name": "Skipton Thai Massage",
+    "email": "skipton.thaimassage@gmail.com",
+    "phoneForTel": "+447709151651",
+    "phoneFormatted": "07709 151651",
+    "openingHours": "Mon-Sun: 9am-7pm",
+    "onlineBooking": "https://skiptonthaimassage.setmore.com/",
     "address": {
-        "lineOne": "First Address Line",
+        "lineOne": "First Floor 12 Newmarket St ",
         "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80206",
-        "country": "US",
-        "mapLink": "https://maps.app.goo.gl/TEdS5KoLC9ZcULuQ6"
+        "city": "Skipton",
+        "state": "",
+        "zip": "BD23 2HR",
+        "country": "England",
+        "mapLink": "https://maps.app.goo.gl/PUmwRKhcbBuxAZKW7"
     },
     "socials": {
-        "facebook": "https://www.facebook.com/",
-        "instagram": "https://www.instagram.com/",
-        "googleReview": "",
+        "facebook": "",
+        "instagram": "",
+        "googleReview": "https://g.page/r/CTkylKcKiaqREBM/review",
     },
     //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
-    "domain": "https://www.example.com"
+    "domain": "https://www.skiptonthaimassage.co.uk"
 };

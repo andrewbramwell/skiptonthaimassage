@@ -218,6 +218,7 @@
     /* removed at tablet */
     max-height: 25rem;
     /* clips img tag corners */
+    border-radius: 1.5rem;
     overflow: hidden;
     /* sends it to the 2nd posiiton in the bottom */
     order: 2;
@@ -266,6 +267,7 @@
     width: 3rem;
     height: 3rem;
     border: 1px solid var(--primary);
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -406,6 +408,7 @@
     margin: 0;
     box-sizing: border-box;
     border: 1px solid var(--primary);
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -500,6 +503,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    border-radius: 1rem;
   }
   #why-choose-1635 .cs-picture1 {
     width: 100%;
@@ -547,7 +551,7 @@
 @media only screen and (min-width: 64rem) {
   #why-choose-1635 {
     /* set the darker background color on the main div */
-    background-color: #F8F5F1;
+    background-color: #fff;
     overflow: hidden;
   }
   #why-choose-1635 .cs-content {
@@ -1393,7 +1397,7 @@
     margin: 0;
     padding: 0;
     background-color: #000;
-    border-radius: 0.5rem;
+    border-radius: 1.5rem;
     /* clips background image corners */
     overflow: hidden;
     box-shadow: 0px 12px 80px 0px rgba(26, 26, 26, 0.08);

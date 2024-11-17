@@ -47,6 +47,7 @@
     /* 400px - 775px */
     height: clamp(25rem, 70vw, 48.4375rem);
     overflow: hidden;
+    border-radius: clamp(2rem, 4vw, 3rem);
   }
   #sbs-867 .cs-picture img {
     position: absolute;

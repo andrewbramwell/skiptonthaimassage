@@ -5,6 +5,7 @@
 @media only screen and (min-width: 0rem) {
   #sbs-867 {
     padding: var(--sectionPadding);
+    background-color: #f7f7f7;
   }
   #sbs-867 .cs-container {
     width: 100%;
@@ -47,6 +48,8 @@
     /* 400px - 775px */
     height: clamp(25rem, 70vw, 48.4375rem);
     overflow: hidden;
+    border-radius: clamp(2rem, 4vw, 3rem);
+    /* clips the corners of the children around the border radius */
   }
   #sbs-867 .cs-picture img {
     position: absolute;
@@ -100,6 +103,7 @@
 @media only screen and (min-width: 0rem) {
   #sbs-r-870 {
     padding: var(--sectionPadding);
+    background-color: #f7f7f7;
   }
   #sbs-r-870 .cs-container {
     width: 100%;
@@ -142,6 +146,8 @@
     /* 400px - 775px */
     height: clamp(25rem, 70vw, 48.4375rem);
     overflow: hidden;
+    border-radius: clamp(2rem, 4vw, 3rem);
+    /* clips the corners of the children around the border radius */
   }
   #sbs-r-870 .cs-picture img {
     position: absolute;
@@ -234,6 +240,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 1.5rem;
   }
   #faq-1108 .cs-faq-group {
     width: 100%;
@@ -253,6 +260,7 @@
     /* clips all corners of the button that overlap the rounded border */
     overflow: hidden;
     transition: border-bottom 0.3s;
+    border-radius: 1.5rem;
   }
   #faq-1108 .cs-faq-item.active .cs-button {
     color: var(--primary);
