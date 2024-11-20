@@ -6,8 +6,8 @@ module.exports = {
     "openingHours": "Mon-Sun: 9am-7pm",
     "onlineBooking": "https://skiptonthaimassage.setmore.com/",
     "address": {
-        "lineOne": "First Floor 12 Newmarket St ",
-        "lineTwo": "Second Address Line",
+        "lineOne": "12 Newmarket St",
+        "lineTwo": "1st Floor",
         "city": "Skipton",
         "state": "",
         "zip": "BD23 2HR",

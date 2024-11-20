@@ -4,11 +4,20 @@
 
 <div id="banner-1519">
     <div class="cs-container">
-        <span class="cs-int-title">{{eleventyNavigation.key}}</span>
-        <div class="cs-breadcrumbs">
-            <a href="/" class="cs-link">Home</a>
-            <a href="{{ page.url }}" class="cs-link cs-active">{{eleventyNavigation.key}}</a>
-        </div>
+        {% if eleventyNavigation and eleventyNavigation.key %}
+            <span class="cs-int-title">{{eleventyNavigation.key}}</span>
+            <div class="cs-breadcrumbs">
+                <a href="/" class="cs-link">Home</a>
+                <a href="{{ page.url }}" class="cs-link cs-active">{{eleventyNavigation.key}}</a>
+            </div>
+        {% else %}
+            <!-- Fallback for pages without eleventyNavigation -->
+            <span class="cs-int-title">{{ title | default(page.fileSlug) }}</span>
+            <div class="cs-breadcrumbs">
+                <a href="/" class="cs-link">Home</a>
+                <a href="{{ page.url }}" class="cs-link cs-active">{{ title | default(page.fileSlug) }}</a>
+            </div>
+        {% endif %}
     </div>
     <!--Background Image-->
     <picture class="cs-background">
@@ -30,4 +39,6 @@
         <path fill-rule="evenodd" clip-rule="evenodd" d="M1920 136V0C1803.21 45.3334 1445.52 136 951 136C456.485 136 111.116 45.3334 0 0V136H951H1920Z" fill="var(--maskBG)"/>
     </svg>
 </div>
+
+
                                 

@@ -1,18 +1,17 @@
 ---
-title: 'Contact | Code Stitch Web Designs'
-description: 'Meta description for the page'
-preloadImg: '/assets/images/cabinets2.jpg'
+title: 'Contact | Skipton Thai Massage'
+description: "Book your Thai massage treatment in Skipton. Easy to find location in the town centre with nearby parking. Call us today to schedule your appointment."
 permalink: 'contact/'
 eleventyNavigation:
     key: Contact Us
     order: 600
-    hideOnDesktop: true
 ---
 
 {% extends "layouts/base.html" %}
 
 {% block head %}
     <link rel="stylesheet" href="/assets/css/contact.css">
+    <link rel="preload" as="image" href="{% getUrl "/assets/images/banner.jpg" | resize({width: 2560, height: 1136}) | avif %}">
 {% endblock %}
 
 {% block body %}
@@ -27,7 +26,7 @@ eleventyNavigation:
             <span class="cs-topper">Contact Us</span>
             <h2 class="cs-title">Get in Touch</h2>
             <p class="cs-text">
-                Aqestic recusandae laudantium optio amet a quisquam saepe aliquid, voluptate praesentium dicta fuga Aqestic recusandae laudantium 
+                Whether you have questions about our massage treatments or you're ready to schedule your session, we're here to help. Contact us to begin your journey to relaxation and renewal.
             </p>
             <ul class="cs-ul">
                 <li class="cs-li">
@@ -56,14 +55,14 @@ eleventyNavigation:
                     </picture>
                     <div class="cs-flex-group">
                         <span class="cs-header">Address</span>
-                        <a href="{{client.address.mapLink}}" target="_blank" rel="noopener" class="cs-link">{{client.address.lineOne}}, {{client.address.city}}, {{client.address.zip}}</a>
+                        <a href="{{client.address.mapLink}}" target="_blank" rel="noopener" class="cs-link">{{client.address.lineOne}}, {{client.address.lineTwo}}, {{client.address.city}}, {{client.address.zip}}</a>
                     </div>
                 </li>
             </ul>
         </div>
         <!--Form-->
         <form class="cs-form" id="cs-form-1403" name="Contact Form" method="post" data-netlify="true"><input type='hidden' name='form-name' value='Contact Form' />
-            <h3 class="cs-h3">Make Appointment</h3>
+            <h3 class="cs-h3">How can we help?</h3>
             <label class="cs-label">
                 Name
                 <input class="cs-input" required type="text" id="name-1403" name="name" placeholder="Name">
