@@ -112,7 +112,7 @@
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
   #hero-1469:before {
-    background: linear-gradient(89deg, rgba(247, 255, 246, 0.9) 44.46%, rgba(255, 243, 236, 0) 78.47%);
+    background: linear-gradient(89deg, rgba(238, 247, 241, 0.9) 44.46%, rgba(255, 243, 236, 0) 78.47%);
     opacity: 1;
   }
   #hero-1469 .cs-container {

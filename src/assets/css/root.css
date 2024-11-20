@@ -1,13 +1,12 @@
-/* CODESTITCH STYLES, RESET, HEADER/NAVIGATION AND FOOTER */
 /*-- -------------------------- -->
 <---        Core Styles         -->
 <--- -------------------------- -*/
 /* CodeStitch Root and Helpers */
 @media only screen and (min-width: 0rem) {
   :root {
-    --primary: #65AA2E;
-    --primaryLight: #ffd675;
-    --secondary: #65AA2E;
+    --primary: #51B076;
+    --primaryLight: #73C091;
+    --secondary: #51B076;
     --secondaryLight: #001f3f;
     --headerColor: #1a1a1a;
     --bodyTextColor: #4e4b66;
@@ -72,7 +71,7 @@
     display: block;
     height: 100%;
     width: 0%;
-    background: #1a1a1a;
+    background: var(--primaryLight);
     opacity: 1;
     top: 0;
     left: 0;
@@ -80,7 +79,7 @@
     transition: width 0.3s;
   }
   .cs-button-solid:hover {
-    color: var(--primary);
+    color: #fff;
   }
   .cs-button-solid:hover:before {
     width: 100%;
@@ -518,6 +517,7 @@
   }
   #cs-navigation .cs-li-link {
     font-size: 1.25rem;
+    font-family: syne;
     line-height: 1.2em;
     font-weight: 700;
     text-decoration: none;
@@ -910,6 +910,7 @@
     font-size: 1rem;
     line-height: 1.5em;
     font-weight: 700;
+    font-family: syne;
     text-decoration: none;
     margin: 0;
     color: var(--headerColor);
@@ -1080,7 +1081,7 @@
     content: '';
     width: 100%;
     height: 100%;
-    background: #F3FDF2;
+    background: #eef7f1;
     opacity: 0.8;
     position: absolute;
     display: block;
@@ -1113,7 +1114,7 @@
   #banner-1519 .cs-background:before {
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, rgba(247, 255, 246, 0.9) 23.05%, rgba(255, 243, 236, 0) 80.08%);
+    background: linear-gradient(90deg, rgba(238, 247, 241, 0.9) 23.05%, rgba(255, 243, 236, 0) 80.08%);
     opacity: 1;
   }
 }
@@ -1324,6 +1325,7 @@
     margin: 0 0 1.5rem 0;
     color: #fff;
     display: block;
+    font-family: syne;
   }
   #cs-footer-710 .cs-link {
     /* 14px - 16px */
