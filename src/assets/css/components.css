@@ -446,7 +446,7 @@
 /* Dark Mode */
 @media only screen and (min-width: 0rem) {
   body.dark-mode #services-877 .cs-topper {
-    color: var(--primaryLight);
+    color: var(--primary);
   }
   body.dark-mode #services-877 .cs-title,
   body.dark-mode #services-877 .cs-text,

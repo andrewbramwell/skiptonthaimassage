@@ -82,8 +82,11 @@
 }
 /* Dark Mode */
 @media only screen and (min-width: 0rem) {
+  body.dark-mode #sbs-867 {
+    background-color: var(--dark);
+  }
   body.dark-mode #sbs-867 .cs-topper {
-    color: var(--primaryLight);
+    color: var(--primary);
   }
   body.dark-mode #sbs-867 .cs-title,
   body.dark-mode #sbs-867 .cs-text {
@@ -182,8 +185,11 @@
 }
 /* Dark Mode */
 @media only screen and (min-width: 0rem) {
+  body.dark-mode #sbs-r-870 {
+    background-color: var(--dark);
+  }
   body.dark-mode #sbs-r-870 .cs-topper {
-    color: var(--primaryLight);
+    color: var(--primary);
   }
   body.dark-mode #sbs-r-870 .cs-title,
   body.dark-mode #sbs-r-870 .cs-text {
